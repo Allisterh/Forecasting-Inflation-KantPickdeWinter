@@ -1,13 +1,12 @@
 ############################ Nowcasting GDP using machine learning methods #####################################
 #
 #                                   Dennis Kant, Andreas Pick and Jasper de Winter
-#                                                 3/14/2023
+#                                                 3/17/2023
 #
 ###############################################################################################################
 #
 rm(list=ls())
-# ROOT <- rprojroot::find_rstudio_root_file()  # !!!! Adjust main path
-ROOT <- "G:/EBO/ECMO/de Winter/Werk/Onderzoek/PROJECT 11.  KANT PICK DE WINTER/Replication"
+ROOT <- rprojroot::find_rstudio_root_file()  # !!!! Adjust main path
 
 # Models         
 setwd(paste0(ROOT,"/Set-ups/"))                                                 # Adjust Estimation.r to change settings
